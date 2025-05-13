@@ -4,7 +4,7 @@ export default function Footer() {
 	return (
 		<footer className="w-full pt-4 mt-4 relative">
 			<div>
-				<div className="xl:absolute xl:w-[20%] bg-[url(/assets/footer-front.png)] xl:z-30 text-white xl:p-6 xl:mx-10 p-6 space-y-4">
+				<div className="xl:absolute xl:w-[17%] bg-[url(/assets/footer-front.png)] xl:z-30 text-white xl:p-6 xl:mx-10 p-6 space-y-4">
 					<p className="text-base xl:text-2xl font-black">Hubungi Kami</p>
 					<p>
 						Lorem Ipsum has been the industry's standard dummy text ever since
@@ -14,7 +14,7 @@ export default function Footer() {
 					<p>+62 8123456789</p>
 				</div>
 			</div>
-			<div className="w-full bg-[url(/assets/footer-back.png)] text-white p-7 space-y-8 xl:flex xl:flex-row xl:justify-between xl:space-x-10 z-0 xl:my-6">
+			<div className="w-full bg-[url(/assets/footer-back.png)] text-white p-7 space-y-8 xl:flex xl:flex-row xl:justify-between xl:space-x-10 z-0 xl:my-7">
 				<div className="space-y-4 xl:pl-96 z-20">
 					<p className="font-black text-lg sm:text-lg xl:text-2xl">
 						Kopi Pak Tarno
