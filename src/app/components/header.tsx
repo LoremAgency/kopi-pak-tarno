@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import "./header.css";
 
 export default function Header() {
   return (
     <div
       id="default-carousel"
-      className="relative w-screen h-screen"
+      className="relative w-[99vw] h-screen"
       data-carousel="slide"
     >
       <div className="relative h-screen overflow-hidden h-screen">
@@ -13,6 +14,7 @@ export default function Header() {
           <div
             className="hidden duration-500 ease-in-out"
             data-carousel-item
+            suppressHydrationWarning
             key={index}
           >
             <Image
@@ -26,11 +28,14 @@ export default function Header() {
         ))}
       </div>
       <div
-        className="absolute h-screen  top-0 left-0 w-screen z-30 text-white"
+        className="absolute h-screen  top-0 left-0 w-[99vw] z-30 text-white"
         style={{ background: "rgba(0, 0, 0, 0.5)" }}
       ></div>
-      <div className="absolute  top-0 left-0 w-screen z-30 text-white">
-        <div className=" flex flex-wrap items-center justify-between mx-auto py-4 px-20">
+      <div className="absolute  top-0 left-0 w-[99vw] z-30 text-white">
+        <div
+          className=" flex flex-wrap items-center justify-between mx-auto py-4 padding-1 "
+          style={{}}
+        >
           <Link
             href={"/"}
             className="flex items-center space-x-3 rtl:space-x-reverse font-bold text-[20px]"
@@ -78,15 +83,11 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className="absolute top-[55%]  left-0 w-screen z-31 text-white">
-        <div className=" px-20">
-          <span className="text-[80px] font-bold">
-            <div className="m-0 " style={{ lineHeight: "80px" }}>
-              Sudut tenang terasa
-            </div>
-            <div className="m-0 " style={{ lineHeight: "80px" }}>
-              seperti rumah.
-            </div>
+      <div className="absolute top-[55%]  left-0 w-[99vw] z-31 text-white">
+        <div className="padding-1">
+          <span className="jumbotron-text font-bold">
+            <div className="m-0 ">Sudut tenang terasa</div>
+            <div className="m-0 ">seperti rumah.</div>
           </span>
         </div>
       </div>
