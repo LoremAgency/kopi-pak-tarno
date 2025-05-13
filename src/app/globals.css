@@ -1,4 +1,10 @@
 @import 'tailwindcss';
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "flowbite";
 
 :root {
 	--background: #ffffff;
