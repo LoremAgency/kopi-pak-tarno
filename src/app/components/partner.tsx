@@ -1,7 +1,11 @@
+import Image from "next/image";
+
 export default function Partner() {
   return (
     <div className="relative w-full h-[200px] text-white text-center">
-      <img
+      <Image
+        width={"100"}
+        height={"100"}
         src="/assets/cofee.jpg"
         alt="Coffee Beans Background"
         className="absolute inset-0 w-full h-full object-cover"
@@ -23,21 +27,27 @@ export default function Partner() {
         {/* Flex Container */}
         <div className="flex gap-4 mt-2">
           <div className="bg-white p-1 rounded-md">
-            <img
+            <Image
+              width={"100"}
+              height={"100"}
               src="/assets/gojek.png"
               alt="Gojek"
               className="w-24 h-12 object-contain"
             />
           </div>
           <div className="bg-white p-1 rounded-md">
-            <img
+            <Image
+              width={"100"}
+              height={"100"}
               src="/assets/grab.jpg"
               alt="GrabFood"
               className="w-24 h-12 object-contain"
             />
           </div>
           <div className="bg-[#f5462f] p-1 rounded-md">
-            <img
+            <Image
+              width={"100"}
+              height={"100"}
               src="/assets/sf.jpg"
               alt="ShopeeFood"
               className="w-24 h-12 object-contain"
