@@ -7,7 +7,7 @@ export default function Footer() {
 				<div className="xl:absolute xl:w-[20%] bg-[url(/assets/footer-front.png)] xl:z-30 text-white xl:p-6 xl:mx-10 p-6 space-y-4">
 					<p className="text-base xl:text-2xl font-black">Hubungi Kami</p>
 					<p>
-						Lorem Ipsum has been the industry's standard dummy text ever since
+						Lorem Ipsum has been the industry&apos;s standard dummy text ever since
 						the 1500s, when
 					</p>
 					<p>info@gmail.com</p>
